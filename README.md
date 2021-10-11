@@ -18,8 +18,24 @@ Bagaimana caranya untuk meningkatkan sales item/produk perusahaan dengan penerap
 Meningkatkan sales perusahaan dan secara tidak langsung reduce cost penyimpanan produk di gudang
 
 ## Data
-![image](https://user-images.githubusercontent.com/92136872/136834293-2dcefa08-bab3-46e1-8a30-fb3f44edf066.png)
+![image](https://user-images.githubusercontent.com/92136872/136834676-d0f039c7-939b-470d-9de3-cbeee9d71aad.png)
 <br /> Sumber data : https://www.kaggle.com/ahmedkallam/ikea-sa-furniture-web-scraping 
 
-
-
+## Step
+1. Data Cleaning & Exploratory Data Analysis (EDA)
+<br /> A. Handle duplicate, inconsistent & missing data
+<br /> B. Add new data
+<br /> C. Check linearity
+<br /> D. Check data correlation
+<br /> E. Check data type, etc
+2. Preprocessing
+<br /> A. Binary encoding
+<br /> B. Data scaling
+<br /> C. Data transforming, etc
+3. Modelling
+<br /> A. Decide model benchmark
+<br /> B. Model benchmark selection using performance evaluation
+<br /> C. Hyperparameter tuning from selected benchmark model
+<br /> D. Model comparison (model before & after tuning)
+<br /> E. Slected final model
+5. Conclusion & Recommendation

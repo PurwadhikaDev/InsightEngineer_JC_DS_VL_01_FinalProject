@@ -63,7 +63,7 @@ Penentuan harga produk yang tepat diharapkan dapat meningkatkan sales perusahaan
 <br /> E. Model comparison (model before & after tuning)
 <br /> F. Selected final model
 
-4. Result Analytics & Recommendation     [link to file](XXX)
+4. Result Analytics & Recommendation     [link to file](https://github.com/PurwadhikaDev/InsightEngineer_JC_DS_VL_01_FinalProject/blob/main/4_IE_IKEA_Result_Analytics.ipynb)
 
 ## Conclusion & Recommendation
 Terdapat korelasi kuat antara dimensi besaran produk seperti depth (0,4), height (0,53), dan width (0,73) dengan harga. Jika 3 dimensi itu digabungkan menjadi volume, volume memiliki korelasi paling kuat dengan harga (0,78) berbanding dengan 3 dimensi lainnya. 
@@ -92,8 +92,9 @@ Perusahaan harus lebih berhati-hati dalam menentukan harga terhadap product yang
 4. Product dengantinggi 74 - 83 cm, dan
 5. Product dengan lebar 80 cm
 
-<br/><br/> Product dengan karakteristik diatas berpengaruh terhadap besarnya error dalam prediksi harga. Karena jika error prediksi harga besar (over price/under price), maka perusahaan akan mengalami kerugian.
+<br/> Product dengan karakteristik diatas berpengaruh terhadap besarnya error dalam prediksi harga. Karena jika error prediksi harga besar (over price/under price), maka perusahaan akan mengalami kerugian.
 
+<br/> 
 ## References
 1. https://www.analyticsvidhya.com/blog/2021/05/feature-engineering-how-to-detect-and-remove-outliers-with-python-code/
 2. https://www.analyticsvidhya.com/blog/2021/04/how-to-handle-missing-values-of-categorical-variables/

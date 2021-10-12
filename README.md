@@ -72,3 +72,4 @@ Penentuan harga produk yang tepat diharapakan dapat meningkatkan sales perusahaa
 4. https://humansofdata.atlan.com/2018/03/when-delete-outliers-dataset/
 5. https://www.pluralsight.com/guides/non-linear-regression-trees-scikit-learn
 6. https://medium.com/@harsha_vardhan/price-prediction-challenge-a-real-world-case-study-using-machine-learning-ce8a0697b795
+7. https://www.kaggle.com/lucchi/investigating-and-predicting-ikea-furniture

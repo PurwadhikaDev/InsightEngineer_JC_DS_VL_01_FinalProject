@@ -87,9 +87,9 @@ Model machine learning yang terpilih dapat menentukan perkiraan harga yang tepat
 ## Business Insight
 Perusahaan harus lebih berhati-hati dalam menentukan harga terhadap product yang mempunyai karakteristik berikut:
 1. Product yang termasuk dalam category Sofa & armchairs, Bookcases & shelving units, Beds dan Wardobes
-2. Product yang tidak diketahui designernya
+2. Product yang tidak diketahui designernya (No designer)
 3. Product dengan ukuran kedalaman 40 - 55 cm
-4. Product dengantinggi 74 - 83 cm, dan
+4. Product dengan tinggi 74 - 83 cm, dan
 5. Product dengan lebar 80 cm
 
 <br/> Product dengan karakteristik diatas berpengaruh terhadap besarnya error dalam prediksi harga. Karena jika error prediksi harga besar (terlalu over price/under price), maka perusahaan akan mengalami kerugian.

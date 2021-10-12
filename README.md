@@ -55,7 +55,7 @@ Penentuan harga produk yang tepat diharapkan dapat meningkatkan sales perusahaan
 <br /> C. Hanlde missing data
 <br /> D. Add/drop column, etc
 
-3. Modelling    [link to file](https://github.com/PurwadhikaDev/InsightEngineer_JC_DS_VL_01_FinalProject/blob/main/3_IE_IKEA_Machine%20Learning%20Model_Conclusin%20dan%20Recommendation.ipynb)
+3. Modelling & Conclusion   [link to file](https://github.com/PurwadhikaDev/InsightEngineer_JC_DS_VL_01_FinalProject/blob/main/3_IE_IKEA_Machine%20Learning%20Model_Conclusin%20dan%20Recommendation.ipynb)
 <br /> A. Further data preparation (Binary encoding, handle outliers, etc)
 <br /> B. Decide model benchmark
 <br /> C. Model benchmark selection using performance evaluation
@@ -63,10 +63,27 @@ Penentuan harga produk yang tepat diharapkan dapat meningkatkan sales perusahaan
 <br /> E. Model comparison (model before & after tuning)
 <br /> F. Selected final model
 
-5. Conclusion & Recommendation     [link to file](https://github.com/PurwadhikaDev/InsightEngineer_JC_DS_VL_01_FinalProject/blob/main/3_IE_IKEA_Machine%20Learning%20Model_Conclusin%20dan%20Recommendation.ipynb)
-<br /> Terdapat korelasi kuat antara dimensi besaran produk seperti depth (0,4), height (0,53), dan width (0,73) dengan harga. Jika 3 dimensi itu digabungkan menjadi volume, volume memiliki korelasi paling kuat dengan harga (0,78) berbanding dengan 3 dimensi lainnya. Produk-produk yang memiliki volume besar dan rata-rata harga yang tinggi adalah produk berkategori Wardrobes, beds, sofas & armchairs. Selain itu, designer juga turut andil dalam mempengaruhi harga produk. produk yang di desain oleh Niels Gammelgaard, S Lanneskog rata-rata berharga 4000-6000 SR.
-<br/> <br /> Keterjualan produk dengan harga yang tinggi juga lebih besar terdapat pada produk yang dijual secara online dan produk yang memiliki pilihan warna. Dimana rata-rata harga produk yang dijual secara online dan terdapat pilihan warna adalah 1500 SR, sedangkan produk yang tidak dijual online dan hanya ada pilihan satu warna memiliki harga rata-rata 1300 SR. oleh itu kami menyarankan kepada manajemen agar dapat menampilkan harga produk yang dijual dengan memperhatikan volume produk, kategori produk, keterjualan online dan ketersediaan pilihan warna, serta designer produk. Harga produk yang ditampilkan dapat diberikan setelah dikurangi diskon atau dimarkup sesuai dengan karakteristik produk tersebut.
-<br/> <br/> Model machine learning dapat menentukan perkiraan harga yang tepat atas suatu produk. perkiraan harga tersebut dapat digunakan sebagai manajemen IKEA untuk menetapkan harga dan diskon produk sehingga pembeli dapat merasa diuntungkan ketika membeli produk IKEA.
+4. Result Analytics & Recommendation     [link to file](XXX)
+
+
+## Conclusion & Recommendation
+Terdapat korelasi kuat antara dimensi besaran produk seperti depth (0,4), height (0,53), dan width (0,73) dengan harga. Jika 3 dimensi itu digabungkan menjadi volume, volume memiliki korelasi paling kuat dengan harga (0,78) berbanding dengan 3 dimensi lainnya. 
+<p align="center"> <img src="https://user-images.githubusercontent.com/92136872/136909964-d270e69a-2474-40a2-b3a6-77baabbb7cc4.png"/>
+</p>
+<br/> Produk-produk yang memiliki volume besar dan rata-rata harga yang tinggi adalah produk berkategori Wardrobes, beds, sofas & armchairs. Selain itu, designer juga turut andil dalam mempengaruhi harga produk. Produk yang di desain oleh Niels Gammelgaard, S Lanneskog rata-rata berharga 4000-6000 SR.
+<p align="center"> <img src="https://user-images.githubusercontent.com/92136872/136911266-7c2da24b-7e85-4cde-8e02-59a370aff2e5.png"/></p>
+<p align="center"> <img src="https://user-images.githubusercontent.com/92136872/136912441-fdc7e68a-1103-4237-a1ef-134151426e08.png"/></p>
+
+<br /> Keterjualan produk dengan harga yang tinggi juga lebih besar terdapat pada produk yang dijual secara online dan produk yang memiliki pilihan warna. Dimana rata-rata harga produk yang dijual secara online dan terdapat pilihan warna adalah 1500 SR, sedangkan produk yang tidak dijual online dan hanya ada pilihan satu warna memiliki harga rata-rata 1300 SR. **Oleh itu kami menyarankan kepada manajemen agar dapat menampilkan harga produk yang dijual dengan memperhatikan volume (depth, height, width) produk, kategori produk, keterjualan online dan ketersediaan pilihan warna, serta designer produk**. Harga produk yang ditampilkan dapat diberikan setelah dikurangi diskon atau dimarkup sesuai dengan karakteristik produk tersebut.
+<br/><br/> Setelah dilakukan test terhadap model benchmark Mechine Learning untuk penentuan harga, Kneighbors Regressor & Random Forest Regressor menghasilkan nilai terbaik dibanding dengan model lainnya.
+<p align="center"> <img src="https://user-images.githubusercontent.com/92136872/136913690-274528e3-10ad-4173-80a9-9a38dae69636.png"/></p>
+
+<br/> Kemudian dilakukan proses hyperparamter tuning terhadap 2 model tersebut dan didapat hasil bahwa model Random Forest Regressor dengan parameter criterion = 'mse', n_estimators = 100, max_depth = 15, random_state = 42 menunjukan peningkatan yang cukup signifikan.
+<p align="center"> <img src="https://user-images.githubusercontent.com/92136872/136915693-091fd0bd-9fe5-4c22-8f2d-88f27908a929.png"/></p>
+<br/> Maka, model inilah yang kami jadikan sebagai *Selected Model*.
+<p align="center"> <img src="https://user-images.githubusercontent.com/92136872/136917571-2f3c0ab5-f66b-4105-8401-a5c218ca4457.png"/></p>
+
+Model machine learning yang terpilih dapat menentukan perkiraan harga yang tepat atas suatu produk. Perkiraan harga tersebut dapat digunakan sebagai manajemen IKEA untuk menetapkan harga dan diskon produk sehingga pembeli dapat merasa diuntungkan ketika membeli produk IKEA. Namun, hasil akan lebih baik jika terdapat data yang berkaitan dengan penjualan tiap produk agar dapat dilakukan analisa lebih lanjut.
 
 ## References
 1. https://www.analyticsvidhya.com/blog/2021/05/feature-engineering-how-to-detect-and-remove-outliers-with-python-code/

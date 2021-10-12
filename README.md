@@ -95,6 +95,7 @@ Perusahaan harus lebih berhati-hati dalam menentukan harga terhadap product yang
 <br/> Product dengan karakteristik diatas berpengaruh terhadap besarnya error dalam prediksi harga. Karena jika error prediksi harga besar (terlalu over price/under price), maka perusahaan akan mengalami kerugian.
 
 <br/> 
+
 ## References
 1. https://www.analyticsvidhya.com/blog/2021/05/feature-engineering-how-to-detect-and-remove-outliers-with-python-code/
 2. https://www.analyticsvidhya.com/blog/2021/04/how-to-handle-missing-values-of-categorical-variables/

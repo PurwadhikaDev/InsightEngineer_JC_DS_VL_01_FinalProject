@@ -82,7 +82,7 @@ Terdapat korelasi kuat antara dimensi besaran produk seperti depth (0,4), height
 <br/> Maka, model inilah yang kami jadikan sebagai "Selected Model".
 <p align="center"> <img src="https://user-images.githubusercontent.com/92136872/136917571-2f3c0ab5-f66b-4105-8401-a5c218ca4457.png"/></p>
 
-Model machine learning yang terpilih dapat menentukan perkiraan harga yang tepat atas suatu produk. Perkiraan harga tersebut dapat digunakan sebagai manajemen IKEA untuk menetapkan harga dan diskon produk sehingga pembeli dapat merasa diuntungkan ketika membeli produk IKEA. Namun, hasil akan lebih baik jika terdapat data yang berkaitan dengan penjualan tiap produk agar dapat dilakukan analisa lebih lanjut.
+Model machine learning yang terpilih dapat menentukan perkiraan harga yang tepat atas suatu produk. Perkiraan harga tersebut dapat digunakan sebagai manajemen IKEA untuk menetapkan harga dan diskon produk sehingga pembeli dapat merasa diuntungkan ketika membeli produk IKEA. **Namun, hasil akan lebih baik jika terdapat data yang berkaitan dengan penjualan tiap produk agar dapat dilakukan analisa lebih lanjut**.
 
 ## Business Insight
 Perusahaan harus lebih berhati-hati dalam menentukan harga terhadap product yang mempunyai karakteristik berikut:

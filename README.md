@@ -12,12 +12,12 @@ Prediksi harga produk yang tepat dapat meminimalkan penetapan harga yang terlalu
 </p>
 
 ## Problem
-IKEA mempunyai beragam product untuk dijual. Semakin lama produk disimpan di gudang, semakin besar pula cost yang akan dikeluarkan oleh perusahaan. Sehingga perlu dilakukan strategi pemasaran salah satunya dengan menentukan harga product untuk meningkatkan penjualan IKEA.
+IKEA mempunyai beragam product untuk dijual. Semakin lama produk disimpan di gudang, semakin besar pula cost penyimpanan dan pemeliharaan yang dikeluarkan oleh perusahaan. Sehingga perlu dilakukan strategi pemasaran salah satunya dengan menentukan harga produk yang tepat untuk meningkatkan penjualan IKEA.
 
 Di dalam Proyek ini, Tim Insight Engineer akan menganalisis dataset IKEA Furniture sehingga dapat merekomendasikan harga produk yang tepat yang dapat dijual oleh Manajemen IKEA kepada masyarakat. (Bagaimana caranya untuk menentukan harga yang tepat dari sebuah product?)
 
 ## Objective
-Penentuan harga produk yang tepat diharapakan dapat meningkatkan sales perusahaan dan secara tidak langsung reduce cost penyimpanan produk di gudang.
+Penentuan harga produk yang tepat diharapkan dapat meningkatkan sales perusahaan dan secara tidak langsung mengurangi cost penyimpanan produk di gudang.
 
 ## Data
 - Sumber data : https://www.kaggle.com/ahmedkallam/ikea-sa-furniture-web-scraping 
@@ -64,6 +64,7 @@ Penentuan harga produk yang tepat diharapakan dapat meningkatkan sales perusahaa
 <br /> F. Selected final model
 
 5. Conclusion & Recommendation     [link to file](https://github.com/PurwadhikaDev/InsightEngineer_JC_DS_VL_01_FinalProject/blob/main/3_IE_IKEA_Machine%20Learning%20Model_Conclusin%20dan%20Recommendation.ipynb)
+model machine learning dapat menentukan perkiraan harga yang tepat atas suatu produk. perkiraan harga tersebut dapat digunakan sebagai manajemen IKEA untuk menetapkan harga dan diskon produk sehingga pembeli dapat merasa diuntungkan ketika membeli produk IKEA.
 
 ## References
 1. https://www.analyticsvidhya.com/blog/2021/05/feature-engineering-how-to-detect-and-remove-outliers-with-python-code/

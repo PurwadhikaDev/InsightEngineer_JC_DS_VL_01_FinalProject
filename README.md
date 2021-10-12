@@ -44,23 +44,23 @@ Penentuan harga produk yang tepat diharapakan dapat meningkatkan sales perusahaa
 
 
 ## Step
-1. Data Cleaning & Exploratory Data Analysis (EDA)
+1. Data Cleaning & Exploratory Data Analysis (EDA)     [link to file](https://github.com/PurwadhikaDev/InsightEngineer_JC_DS_VL_01_FinalProject/blob/main/1_IE_IKEA_Product_Problem_Statement_Data_Understanding_EDA_dan_narasi.ipynb)
 <br /> A. Handle duplicate, inconsistent & missing data, outliers
 <br /> B. Add new data
 <br /> C. Check linearity
 <br /> D. Check data correlation
 <br /> E. Check data type, etc
-2. Preprocessing
+2. Preprocessing     [link to file] (https://github.com/PurwadhikaDev/InsightEngineer_JC_DS_VL_01_FinalProject/blob/main/2_IE_IKEA_Preprocessing_and_Methodology_Data_Analysis.ipynb)
 <br /> A. Binary encoding
 <br /> B. Data scaling
 <br /> C. Data transforming, etc
-3. Modelling
+3. Modelling     [link to file] (https://github.com/PurwadhikaDev/InsightEngineer_JC_DS_VL_01_FinalProject/blob/main/3_IE_IKEA_Machine%20Learning%20Model_Conclusin%20dan%20Recommendation.ipynb)
 <br /> A. Decide model benchmark
 <br /> B. Model benchmark selection using performance evaluation
 <br /> C. Hyperparameter tuning from selected benchmark model
 <br /> D. Model comparison (model before & after tuning)
 <br /> E. Slected final model
-5. Conclusion & Recommendation
+5. Conclusion & Recommendation     [link to file] (https://github.com/PurwadhikaDev/InsightEngineer_JC_DS_VL_01_FinalProject/blob/main/3_IE_IKEA_Machine%20Learning%20Model_Conclusin%20dan%20Recommendation.ipynb)
 
 ## References
 1. https://www.analyticsvidhya.com/blog/2021/05/feature-engineering-how-to-detect-and-remove-outliers-with-python-code/

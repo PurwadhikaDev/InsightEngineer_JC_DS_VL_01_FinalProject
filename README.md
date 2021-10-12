@@ -64,7 +64,18 @@ Penentuan harga produk yang tepat diharapkan dapat meningkatkan sales perusahaan
 <br /> F. Selected final model
 
 5. Conclusion & Recommendation     [link to file](https://github.com/PurwadhikaDev/InsightEngineer_JC_DS_VL_01_FinalProject/blob/main/3_IE_IKEA_Machine%20Learning%20Model_Conclusin%20dan%20Recommendation.ipynb)
-<br /> Model machine learning dapat menentukan perkiraan harga yang tepat atas suatu produk. perkiraan harga tersebut dapat digunakan sebagai manajemen IKEA untuk menetapkan harga dan diskon produk sehingga pembeli dapat merasa diuntungkan ketika membeli produk IKEA.
+<br /> 
+Terdapat korelasi kuat antara dimensi besaran produk seperti depth (0,4), height (0,53), dan width (0,73) dengan harga. jika 3 dimensi itu digabungkan menjadi volume, volume memiliki korelasi paling kuat dengan harga (0,78) jika dibandingkan dengan 3 dimensi lain.
+
+produk-produk yang memiliki volume besar dan rata-rata harga yang tinggi adalah produk berkategori Wardrobes, beds, sofas & armchairs. selain itu, designer juga turut andil dalam mempengaruhi harga produk. produk yang di desain oleh Niels Gammelgaard, S Lanneskog rata-rata berharga 4000-6000 SR
+
+keterjualan produk dengan harga yang tinggi juga lebih besar terdapat pada produk yang dijual secara online dan produk yang memiliki pilihan warna. dimana rata-rata harga produk yang dijual secara online dan terdapat pilihan warna adalah 1500 SR, sedangkan produk yang tidak dijual online dan hanya ada pilihan satu warna memiliki harga rata-rata 1300
+
+oleh itu kami menyarankan kepada manajemen agar dapat menampilkan harga produk yang dijual dengan memperhatikan volume produk, kategori produk, keterjualan online dan ketersediaan pilihan warna, serta designer produk.
+
+harga produk yang ditampilkan dapat diberikan setelah dikurangi diskon atau dimarkup sesuai dengan karakteristik produk tersebut.
+
+Model machine learning dapat menentukan perkiraan harga yang tepat atas suatu produk. perkiraan harga tersebut dapat digunakan sebagai manajemen IKEA untuk menetapkan harga dan diskon produk sehingga pembeli dapat merasa diuntungkan ketika membeli produk IKEA.
 
 ## References
 1. https://www.analyticsvidhya.com/blog/2021/05/feature-engineering-how-to-detect-and-remove-outliers-with-python-code/

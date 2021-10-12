@@ -14,7 +14,6 @@ Prediksi harga produk yang tepat dapat meminimalkan penetapan harga yang terlalu
 ## Problem
 IKEA mempunyai beragam product untuk dijual. Semakin lama produk disimpan di gudang, semakin besar pula cost yang akan dikeluarkan oleh perusahaan. Sehingga perlu dilakukan strategi pemasaran salah satunya dengan menentukan harga product untuk meningkatkan penjualan IKEA.
 
-## Problem Statement
 Di dalam Proyek ini, Tim Insight Engineer akan menganalisis dataset IKEA Furniture sehingga dapat merekomendasikan harga produk yang tepat yang dapat dijual oleh Manajemen IKEA kepada masyarakat. (Bagaimana caranya untuk menentukan harga yang tepat dari sebuah product?)
 
 ## Objective

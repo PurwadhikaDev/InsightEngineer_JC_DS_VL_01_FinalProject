@@ -61,3 +61,11 @@ Penentuan harga produk yang tepat diharapakan dapat meningkatkan sales perusahaa
 <br /> D. Model comparison (model before & after tuning)
 <br /> E. Slected final model
 5. Conclusion & Recommendation
+
+## References
+1. https://www.analyticsvidhya.com/blog/2021/05/feature-engineering-how-to-detect-and-remove-outliers-with-python-code/
+2. https://www.analyticsvidhya.com/blog/2021/04/how-to-handle-missing-values-of-categorical-variables/
+3. https://www.analyticsvidhya.com/blog/2018/08/k-nearest-neighbor-introduction-regression-python/
+4. https://humansofdata.atlan.com/2018/03/when-delete-outliers-dataset/
+5. https://www.pluralsight.com/guides/non-linear-regression-trees-scikit-learn
+6. https://medium.com/@harsha_vardhan/price-prediction-challenge-a-real-world-case-study-using-machine-learning-ce8a0697b795

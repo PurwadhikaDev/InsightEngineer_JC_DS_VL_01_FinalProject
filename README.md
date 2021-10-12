@@ -92,7 +92,7 @@ Perusahaan harus lebih berhati-hati dalam menentukan harga terhadap product yang
 4. Product dengantinggi 74 - 83 cm, dan
 5. Product dengan lebar 80 cm
 
-<br/> Product dengan karakteristik diatas berpengaruh terhadap besarnya error dalam prediksi harga. Karena jika error prediksi harga besar (over price/under price), maka perusahaan akan mengalami kerugian.
+<br/> Product dengan karakteristik diatas berpengaruh terhadap besarnya error dalam prediksi harga. Karena jika error prediksi harga besar (terlalu over price/under price), maka perusahaan akan mengalami kerugian.
 
 <br/> 
 ## References

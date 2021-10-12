@@ -65,7 +65,6 @@ Penentuan harga produk yang tepat diharapkan dapat meningkatkan sales perusahaan
 
 4. Result Analytics & Recommendation     [link to file](XXX)
 
-
 ## Conclusion & Recommendation
 Terdapat korelasi kuat antara dimensi besaran produk seperti depth (0,4), height (0,53), dan width (0,73) dengan harga. Jika 3 dimensi itu digabungkan menjadi volume, volume memiliki korelasi paling kuat dengan harga (0,78) berbanding dengan 3 dimensi lainnya. 
 <p align="center"> <img src="https://user-images.githubusercontent.com/92136872/136909964-d270e69a-2474-40a2-b3a6-77baabbb7cc4.png"/>
@@ -80,10 +79,20 @@ Terdapat korelasi kuat antara dimensi besaran produk seperti depth (0,4), height
 
 <br/> Kemudian dilakukan proses hyperparamter tuning terhadap 2 model tersebut dan didapat hasil bahwa model Random Forest Regressor dengan parameter criterion = 'mse', n_estimators = 100, max_depth = 15, random_state = 42 menunjukan peningkatan yang cukup signifikan.
 <p align="center"> <img src="https://user-images.githubusercontent.com/92136872/136915693-091fd0bd-9fe5-4c22-8f2d-88f27908a929.png"/></p>
-<br/> Maka, model inilah yang kami jadikan sebagai *Selected Model*.
+<br/> Maka, model inilah yang kami jadikan sebagai "Selected Model".
 <p align="center"> <img src="https://user-images.githubusercontent.com/92136872/136917571-2f3c0ab5-f66b-4105-8401-a5c218ca4457.png"/></p>
 
 Model machine learning yang terpilih dapat menentukan perkiraan harga yang tepat atas suatu produk. Perkiraan harga tersebut dapat digunakan sebagai manajemen IKEA untuk menetapkan harga dan diskon produk sehingga pembeli dapat merasa diuntungkan ketika membeli produk IKEA. Namun, hasil akan lebih baik jika terdapat data yang berkaitan dengan penjualan tiap produk agar dapat dilakukan analisa lebih lanjut.
+
+## Business Insight
+Perusahaan harus lebih berhati-hati dalam menentukan harga terhadap product yang mempunyai karakteristik berikut:
+1. Product yang termasuk dalam category Sofa & armchairs, Bookcases & shelving units, Beds dan Wardobes
+2. Product yang tidak diketahui designernya
+3. Product dengan ukuran kedalaman 40 - 55 cm
+4. Product dengantinggi 74 - 83 cm, dan
+5. Product dengan lebar 80 cm
+
+<br/><br/> Product dengan karakteristik diatas berpengaruh terhadap besarnya error dalam prediksi harga. Karena jika error prediksi harga besar (over price/under price), maka perusahaan akan mengalami kerugian.
 
 ## References
 1. https://www.analyticsvidhya.com/blog/2021/05/feature-engineering-how-to-detect-and-remove-outliers-with-python-code/

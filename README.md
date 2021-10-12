@@ -55,7 +55,7 @@ Penentuan harga produk yang tepat diharapakan dapat meningkatkan sales perusahaa
 <br /> C. Hanlde missing data
 <br /> D. Add/drop column, etc
 
-3. Modelling  &    [link to file](https://github.com/PurwadhikaDev/InsightEngineer_JC_DS_VL_01_FinalProject/blob/main/3_IE_IKEA_Machine%20Learning%20Model_Conclusin%20dan%20Recommendation.ipynb)
+3. Modelling    [link to file](https://github.com/PurwadhikaDev/InsightEngineer_JC_DS_VL_01_FinalProject/blob/main/3_IE_IKEA_Machine%20Learning%20Model_Conclusin%20dan%20Recommendation.ipynb)
 <br /> A. Further data preparation (Binary encoding, handle outliers, etc)
 <br /> B. Decide model benchmark
 <br /> C. Model benchmark selection using performance evaluation

@@ -64,7 +64,7 @@ Penentuan harga produk yang tepat diharapkan dapat meningkatkan sales perusahaan
 <br /> F. Selected final model
 
 5. Conclusion & Recommendation     [link to file](https://github.com/PurwadhikaDev/InsightEngineer_JC_DS_VL_01_FinalProject/blob/main/3_IE_IKEA_Machine%20Learning%20Model_Conclusin%20dan%20Recommendation.ipynb)
-model machine learning dapat menentukan perkiraan harga yang tepat atas suatu produk. perkiraan harga tersebut dapat digunakan sebagai manajemen IKEA untuk menetapkan harga dan diskon produk sehingga pembeli dapat merasa diuntungkan ketika membeli produk IKEA.
+<br /> Model machine learning dapat menentukan perkiraan harga yang tepat atas suatu produk. perkiraan harga tersebut dapat digunakan sebagai manajemen IKEA untuk menetapkan harga dan diskon produk sehingga pembeli dapat merasa diuntungkan ketika membeli produk IKEA.
 
 ## References
 1. https://www.analyticsvidhya.com/blog/2021/05/feature-engineering-how-to-detect-and-remove-outliers-with-python-code/
